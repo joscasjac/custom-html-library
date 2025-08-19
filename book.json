@@ -1,0 +1,29 @@
+{
+  "title": "StreamCraft Studios Custom HTML Library",
+  "description": "Documentation for building custom HTML controls in StreamCraft Studios live broadcast graphics",
+  "author": "StreamCraft Studios",
+  "language": "en",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "search",
+    "highlight",
+    "github",
+    "expandable-chapters",
+    "copy-code-button",
+    "theme-default"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/joscasjac/custom-html-library"
+    },
+    "theme-default": {
+      "showLevel": true
+    }
+  },
+  "variables": {
+    "libraryUrl": "https://joscasjac.github.io/custom-html-library/iframe-client.js"
+  }
+}
