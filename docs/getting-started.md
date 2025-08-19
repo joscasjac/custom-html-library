@@ -48,9 +48,27 @@ Here's a minimal example to get you started:
 </html>
 ```
 
-## Important Notes
+## Development vs Production
 
-⚠️ **Your HTML file must be hosted on a web server accessible via HTTPS.** Local files won't work due to browser security restrictions.
+### Local Development
+✅ **Localhost works perfectly** for testing and development  
+✅ **No hosting required** during development  
+✅ **Use browser developer tools** to debug and test  
+✅ **Fast iteration** - just refresh your browser  
+
+### Production (StreamCraft Studios)
+⚠️ **Your HTML file needs to be accessible** via a web server  
+✅ **Can be localhost** (if StreamCraft can access it)  
+✅ **Can be GitHub Pages** (recommended for public use)  
+✅ **Can be any web hosting service**  
+
+## Testing Locally
+
+1. **Save your HTML file** with the library included
+2. **Open in browser** (localhost works fine)
+3. **Test functionality** using browser developer tools
+4. **Debug and iterate** quickly
+5. **Deploy when ready** to StreamCraft Studios
 
 ## Next Steps
 

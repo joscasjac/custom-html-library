@@ -203,10 +203,22 @@ document.getElementById('content').textContent = data.payload.text;
 
 ## Testing
 
-### Preview Mode
-Always test in preview mode before going live:
+### Development & Testing
+Test your controllers locally before deploying:
 
 ```javascript
+// Local development
+const client = new IframeClient("dev-controller");
+
+// Test your UI locally
+client.onInitialData((data) => {
+    console.log('Local development mode');
+    // Simulate data for testing
+    const testData = { text: "Test Headline", timestamp: Date.now() };
+    updateUI(testData);
+});
+
+// Preview mode in StreamCraft
 client.onItemStateChanged((data) => {
     if (data.state === 'preview') {
         console.log('Testing in preview mode');
